@@ -45,7 +45,7 @@ const FeaturedProperties = () => {
           {properties.map((property) => (
             <div 
               key={property.id}
-              className="bg-[#242F42] rounded-lg overflow-hidden"
+              className="bg-[#242F42] rounded-lg overflow-hidden border border-white/5"
             >
               <div className="relative h-40">
                 <img

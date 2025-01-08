@@ -26,12 +26,9 @@ const Navbar = () => {
           </Link>
 
           {/* Sign In Button */}
-          <Link
-            to="/signin"
-            className="bg-[#3E4C63] hover:bg-[#2D3748] text-white px-5 py-2 rounded transition-colors ml-2"
-          >
-            Sign in
-          </Link>
+          <button className="bg-white/10 hover:bg-white/20 text-white px-6 py-2 rounded-md transition-colors backdrop-blur-sm border border-white/10">
+            Sign In
+          </button>
         </div>
 
         {/* Mobile menu button */}
@@ -71,13 +68,9 @@ const Navbar = () => {
               >
                 About
               </Link>
-              <Link
-                to="/signin"
-                className="bg-[#3E4C63] hover:bg-[#2D3748] text-white px-4 py-2 rounded text-center transition-colors"
-                onClick={() => setIsOpen(false)}
-              >
-                Sign in
-              </Link>
+              <button className="bg-white/10 hover:bg-white/20 text-white px-6 py-2 rounded-md transition-colors backdrop-blur-sm border border-white/10">
+                Sign In
+              </button>
             </div>
           </div>
         )}
